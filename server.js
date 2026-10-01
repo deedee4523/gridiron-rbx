@@ -12,7 +12,6 @@ const DR = require('./discord-roles');
 
 const PORT = Number(process.env.PORT) || 3000;
 const HOST = '0.0.0.0';
-const PUBLIC_DIR = path.join(__dirname, 'public');
 // Durable state is stored in Cloudflare D1; DATA_DIR is no longer used for persistence.
 const DATA_FILE = 'data.json';
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'UFF99234';   // "Admin Key" login
