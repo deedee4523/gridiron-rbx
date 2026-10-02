@@ -1,0 +1,10 @@
+{
+  "name": "united-flag-football",
+  "version": "3.0.0",
+  "private": true,
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
